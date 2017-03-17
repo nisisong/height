@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header">
+			<div class="headtop">
+				<div class="margin clear">
+					<div class="top_left l clear">
+						<div class="lr l">
+							<a class="register" href="#">注册</a>
+							<a class="login" href="#">登录</a>
+						</div>
+						<div class="top_left_order l">
+							<a href="#">订单查询</a>
+						</div>
+					</div>
+					<div class="top_right r clear">
+						<div class="tell l">客服热线：4000-250-630</div>
+						<div class="concern l">
+							<i class="star head"></i><span>关注我们</span>
+							
+							<!--隐藏盒子-->
+							<div class="gz" style="display: none;">
+								<ul class="clear">
+									<li class="l"><img src="images/styleimg/wb.gif"/><br />新浪微博</li>
+									<li class="l"><img src="images/styleimg/wx.gif"/><br />美西微信</li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="margin">
+				<div class="headcenter clear">
+					<!--二维码-->
+					<div class="twocode l">
+						<img class="ewm" src="images/styleimg/ewm.png" />
+						<img class="app" src="images/styleimg/app.png" />
+					</div>
+					<!--LOGO-->
+					<div class="logo l">
+						<a href="#" title="美西时尚-高端时尚奢侈品购物平台">
+							<img src="images/styleimg/logo.png" />
+						</a>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div id="main">
+			<div class="margin">
+				<div class="order">
+					<img src="images/styleimg/order.gif" />
+				</div>
+				<!--购物车无商品-->
+				<div class="cart_null">
+					<div class="goods_null">
+						购物车内暂时没有商品
+						<a href="index.html">去新品看看</a>
+					</div>
+				</div>
+				<!--购物车有商品-->
+				<div class="cart-thead clear" style="display: none;">
+					<div class="cart-col t-checkbox">
+						<div class="cart-checkbox">
+							<input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+						</div>
+					</div>
+					<div class="cart-col t-goods">商品</div>
+					<div class="cart-col t-props"></div>
+					<div class="cart-col t-prices">单价(元)</div>
+					<div class="cart-col t-quantity">数量</div>
+					<div class="cart-col t-sum">小计(R元)</div>
+					<div class="cart-col t-action">操作</div>
+				</div>
+				<!--商品列表-->
+				<div class="item-list">
+					<div class="goods-item goods-item-sele" style="display: none;">
+						<div class="goods-info clear">
+							<div class="cell b-checkbox">
+								<div class="cart-checkbox">
+									<input type="checkbox" checked="" name="" id="" value="" />
+									<span class="line-circle"></span>
+								</div>
+							</div>
+							<div class="cell b-goods">
+								<div class="goods-name">
+									<div class="goods-pic">
+										<a href=""><img src="images/test/cart1.jpg" alt="" /></a>
+									</div>
+									<div class="goods-msg">
+										<div class="goods-d-info">
+											<a href="">Gucci 古驰 真丝 男仕 领带</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cell b-price">
+								<strong>13488.00</strong>
+							</div>				
+							<div class="cell b-quantity">
+								<div class="quantity-form clear">
+									<a class="quantity-down" href="javascript:void(0)">-</a>
+									<input type="text" value="1" />
+									<a class="quantity-add" href="javascript:void(0)">+</a>
+								</div>
+								<div class="quantity-text">有货</div>
+							</div>
+							<div class="cell b-sum">
+								<strong>13488.00</strong>
+							</div>
+							<div class="cell b-action">
+							<a href="javascript:void(0)">删除商品</a>
+							<a href="javascript:void(0)">移至收藏</a>
+						</div>
+						</div>
+					</div>
+				</div>
+				<!--结算-->
+				<div id="cart-floatbar" style="display: none;">
+                    <div class="select-all">
+                        <div class="cart-checkbox">
+                            <input type="checkbox" checked="" name="" id="" class="allsel" value="" /> 全选
+                        </div>
+                    </div>
+                    <div class="operation">
+                        <a href="javascript:void(0)">删除选中的商品</a><a href="javascript:void(0)">移到我的关注</a>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="btn-area">
+                            <a href="Login.html"></a>
+                        </div>
+                        <div class="price-sum">
+                            <span class="txt">总价（不含运费）：</span>
+                            <span class="totalprice">￥0.00</span>
+                        </div>
+                        <div class="amount-sum">
+                      		已选择
+                            <em>0</em> 件商品
+                            <b></b>
+                        </div>
+                    </div>
+                </div>
+			
+				
+				<!--猜你喜欢-->
+				<div class="guess">
+					<div class="rec_t">
+						<div class="line"></div>
+						<p>
+							Guess You Like <br />
+							猜你喜欢
+						</p>
+					</div>
+				</div>
+				<div class="goods-list goods-selected">
+					<ul>
+						<li>
+	                        <div class="goodsinfo">
+	                            <div class="p-img">
+	                                <a href=""><img class="loadimg" src="" alt="" /></a>
+	                            </div>
+	                            <div class="p-name">
+	                                <a class="loadt" href=""></a>
+	                            </div>
+	                            <div class="p-price"><strong><em>￥</em><i class="loadpcp"></i></strong></div>
+	                            <div class="p-btn"><a href="javascript:void(0)"><b></b>加入购物车</a></div>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <div class="goodsinfo">
+	                            <div class="p-img">
+	                                <a href=""><img class="loadimg" src="" alt="" /></a>
+	                            </div>
+	                            <div class="p-name">
+	                                <a class="loadt" href=""></a>
+	                            </div>
+	                            <div class="p-price"><strong><em>￥</em><i class="loadpcp"></i></strong></div>
+	                            <div class="p-btn"><a href="javascript:void(0)"><b></b>加入购物车</a></div>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <div class="goodsinfo">
+	                            <div class="p-img">
+	                                <a href=""><img class="loadimg" src="" alt="" /></a>
+	                            </div>
+	                            <div class="p-name">
+	                                <a class="loadt" href=""></a>
+	                            </div>
+	                            <div class="p-price"><strong><em>￥</em><i class="loadpcp"></i></strong></div>
+	                            <div class="p-btn"><a href="javascript:void(0)"><b></b>加入购物车</a></div>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <div class="goodsinfo">
+	                            <div class="p-img">
+	                                <a href=""><img class="loadimg" src="" alt="" /></a>
+	                            </div>
+	                            <div class="p-name">
+	                                <a class="loadt" href=""></a>
+	                            </div>
+	                            <div class="p-price"><strong><em>￥</em><i class="loadpcp"></i></strong></div>
+	                            <div class="p-btn"><a href="javascript:void(0)"><b></b>加入购物车</a></div>
+	                        </div>
+	                    </li>
+					</ul>
+				</div>
+			
+			
+			<!--margin-->
+			</div>
+		</div>
+		
+				
+		<div id="footer">
+			<div class="margin">
+				<!--底部导航-->
+				<div class="btm_nav">
+					<ul class="clear">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">关于美西</a></li>
+						<li><a href="#">媒体报告</a></li>
+						<li><a href="#">正品保证</a></li>
+						<li><a href="#">业务合作</a></li>
+						<li><a href="#">隐私声明</a></li>
+						<li><a href="#">加入美西</a></li>
+						<li><a href="#">网站地图</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				</div>
+				<!--链接-->
+				<div class="link">
+					<ul class="clear">
+						<li><a href="#"></a><i class="link1 kk"></i></li>
+						<li><a href="#"></a><i class="link2 kk"></i></li>
+						<li><a href="#"></a><i class="link3 kk"></i></li>
+						<li><a href="#"></a><i class="link4 kk"></i></li>
+						<li><a href="#"></a><i class="link5 kk"></i></li>
+						<li class="link6"><a href="#">MEICI · CLUB</a></li>
+					</ul>
+				</div>
+				<!--版本信息-->
+				<div class="copyright">
+					<p>Copyright &copy; 2008-2016 美西时尚-高端时尚生活电商</p>
+					<p>沪ICP备09001221号</p>
+				</div>
+				<!--安全-->
+				<div class="safety">
+					<a class="aq" href="#"><img src="images/styleimg/aq.png"/></a>
+					<a class="gs" href="#"><img src="images/styleimg/ssgs.gif"/></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/cart.js"></script>

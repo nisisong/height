@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+	</head>
+	<body>
+		
+		<div id="header">
+			<div class="headtop">
+				<div class="margin clear">
+					<div class="top_left l clear">
+						<div class="lr l">
+							<a class="register" href="#">注册</a>
+							<a class="login" href="#">登录</a>
+						</div>
+						<div class="top_left_order l">
+							<a href="#">订单查询</a>
+						</div>
+					</div>
+					<div class="top_right r clear">
+						<div class="tell l">客服热线：4000-250-630</div>
+						<div class="concern l">
+							<i class="star head"></i><span>关注我们</span>
+							
+							<!--隐藏盒子-->
+							<div class="gz" style="display: none;">
+								<ul class="clear">
+									<li class="l"><img src="images/styleimg/wb.gif"/><br />新浪微博</li>
+									<li class="l"><img src="images/styleimg/wx.gif"/><br />美西微信</li>
+								</ul>
+							</div>
+						</div>
+						<div class="shop l">
+							<i class="pack head"></i>
+							<s>购物袋(<span id="count">0</span>)</s>
+							<a href="#">▼</a>
+						</div>
+						<!--购物车盒子-->
+						<div class="shopbox" style="display: none;">
+							<div class="shopbox_n">您的购物袋是空的</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="margin">
+				<div class="headcenter clear">
+					<!--二维码-->
+					<div class="twocode l">
+						<img class="ewm" src="images/styleimg/ewm.png" />
+						<img class="app" src="images/styleimg/app.png" />
+					</div>
+					<!--LOGO-->
+					<div class="logo l">
+						<a href="#" title="美西时尚-高端时尚奢侈品购物平台">
+							<img src="images/styleimg/logo.png" />
+						</a>
+						
+					</div>
+					<!--搜索-->
+					<div class="search r">
+						<input type="search" class="sec" placeholder=" 请输入您的关键词" />
+						<button class="hbtn"></button>
+					</div>
+				</div>
+
+				<!--导航-->
+				<div class="headnav">
+					
+					<ul class="clear navlist">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="#">新近单品</a>
+							<!--隐藏菜单--><br />
+							<div class="yc" style="display: none;">
+								<div class="menu1 clear">
+									<div class="menu1_l l clear">
+										<dl>
+											<dt>今日上新</dt>
+											<dt>昨日上新</dt>
+											<dt>本周上新</dt>
+										</dl>
+										<dl>
+											<dt>男仕 Man</dt>
+											<dd>包袋 Bags</dd>
+											<dd>配饰 Accessories</dd>
+											<dd>鞋履 Shoes</dd>
+											<dd>服装 Clothes</dd>
+										</dl>
+										<dl>
+											<dt>女士 Woman</dt>
+											<dd>包袋 Bags</dd>
+											<dd>配饰 Accessories</dd>
+											<dd>鞋履 Shoes</dd>
+											<dd>服装 Clothes</dd>
+										</dl>
+									</div>
+									<div class="menu1_r r clear">
+										<ul class="l">
+											<h2>今日推荐新品</h2>
+											<li>
+												<a href="#"><img src="images/test/m1.jpg" /></a>
+												<div>Gucci 古驰</div>
+												<div>17春夏新款 全棉 女士 短袖T恤</div>								
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m2.jpg" /></a>				
+												<div>Gucci 古驰</div>
+												<div>17春夏新款 粘胶纤维 女士 连衣裙</div>
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m3.jpg" /></a>
+												<div>Gucci 古驰</div>
+												<div>17春夏新款 棉质 女士 围巾</div>													
+											</li>
+										</ul>
+									</div>							
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">全球购</a>
+							<em class="global"></em>
+						</li>
+						<li>
+							<a href="#">女士</a>
+							<div class="yc" style="display: none;">
+								<div class="menu2 clear">
+									<div class="menu2_l l clear">
+										<dl>
+											<dt>包袋 Bags</dt>
+											<dd>所有包袋</dd>
+											<dd>手提包 Totes</dd>
+											<dd>单肩包 Shoulder Bags</dd>
+											<dd>斜挎包 Messenger Bags</dd>
+											<dd>手拿包 Clutch Bags</dd>
+											<dd>旅行包 Travel Bags</dd>
+										</dl>
+										<dl>
+											<dt>配饰 Accessories</dt>
+											<dd>所有配饰</dd>
+											<dd>钱包 Wallets</dd>
+											<dd>手表 Watches</dd>
+											<dd>太阳眼镜 Sunglasses</dd>
+											<dd>饰品 Jewelry</dd>
+											<dd>腰带 Belts</dd>
+											<dd>围巾 Scarf</dd>
+											<dd>数码周边 Technology</dd>
+											<dd>小配件 Small</dd>
+										</dl>
+										<dl>
+											<dt>鞋履 Shoes</dt>
+											<dd>所有鞋履</dd>
+											<dd>平底鞋 Flat Shoes</dd>
+											<dd>高跟鞋 Pumps</dd>
+											<dd>靴子 Boots</dd>
+										</dl>
+										<dl>
+											<dt>服装 Clothes</dt>
+											<dd>所有衣服</dd>
+											<dd>卫衣 Hoodies</dd>
+											<dd></dd>
+											<dd>衬衫 Shirt</dd>
+											<dd>针织/毛衫 Knit/Sweater</dd>
+											<dd>夹克 Jacket</dd>
+											<dd>大衣/风衣 Coat/Dust Coat</dd>
+											<dd>半裙 Skirts</dd>
+											<dd>连衣裙 Dresses</dd>
+											<dd>牛仔 Denims</dd>
+										</dl>
+									</div>
+									<div class="menu2_r l clear">
+										<img class="l nv" src="images/test/m4.jpg"/>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">男仕</a>
+							<div class="yc" style="display:none ;">
+								<div class="menu2 clear" style="left: -384px;">
+									<div class="menu2_l l clear">
+										<dl>
+											<dt>包袋 Bags</dt>
+											<dd>所有包袋</dd>
+											<dd>手提包 Totes</dd>
+											<dd>单肩包 Shoulder Bags</dd>
+											<dd>斜挎包 Messenger Bags</dd>
+											<dd>手拿包 Clutch Bags</dd>
+											<dd>旅行包 Travel Bags</dd>
+										</dl>
+										<dl>
+											<dt>配饰 Accessories</dt>
+											<dd>所有配饰</dd>
+											<dd>钱包 Wallets</dd>
+											<dd>手表 Watches</dd>
+											<dd>太阳眼镜 Sunglasses</dd>
+											<dd>饰品 Jewelry</dd>
+											<dd>腰带 Belts</dd>
+											<dd>围巾 Scarf</dd>
+											<dd>数码周边 Technology</dd>
+											<dd>小配件 Small</dd>
+										</dl>
+										<dl>
+											<dt>鞋履 Shoes</dt>
+											<dd>所有鞋履</dd>
+											<dd>平底鞋 Flat Shoes</dd>
+											<dd>高跟鞋 Pumps</dd>
+											<dd>靴子 Boots</dd>
+										</dl>
+										<dl>
+											<dt>服装 Clothes</dt>
+											<dd>所有衣服</dd>
+											<dd>卫衣 Hoodies</dd>
+											<dd>衬衫 Shirt</dd>
+											<dd>针织/毛衫 Knit/Sweater</dd>
+											<dd>夹克 Jacket</dd>
+											<dd>大衣/风衣 Coat/Dust Coat</dd>
+											<dd>半裙 Skirts</dd>
+											<dd>连衣裙 Dresses</dd>
+											<dd>牛仔 Denims</dd>
+										</dl>
+									</div>
+									<div class="menu2_r l clear">
+										<img class="l nv" src="images/test/m5.jpg"/>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">童装</a>
+							<div class="yc" style="display: none;">
+								<div class="menu1 clear" style="left: -480px;">
+									<div class="menu1_l l clear">
+										<dl>
+											<dt>今日上新</dt>
+											<dt>昨日上新</dt>
+											<dt>本周上新</dt>
+										</dl>
+										<dl>
+											<dt>男仕 Man</dt>
+											<dd>包袋 Bags</dd>
+											<dd>配饰 Accessories</dd>
+											<dd>鞋履 Shoes</dd>
+											<dd>服装 Clothes</dd>
+										</dl>
+										<dl>
+											<dt>女士 Woman</dt>
+											<dd>包袋 Bags</dd>
+											<dd>配饰 Accessories</dd>
+											<dd>鞋履 Shoes</dd>
+											<dd>服装 Clothes</dd>
+										</dl>
+									</div>
+									<div class="menu1_r r clear">
+										<ul class="l">
+											<h2>今日推荐新品</h2>
+											<li>
+												<a href="#"><img src="images/test/m7.jpg" /></a>
+													<div>Gucci 古驰</div>
+													<div>17春夏新款 全棉 女士 短袖T恤</div>									
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m8.jpg" /></a>				
+												<div>Gucci 古驰</div>
+												<div>17春夏新款 粘胶纤维 女士 连衣裙</div>
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m6.jpg" /></a>
+													<div>Gucci 古驰</div>
+													<div>17春夏新款 棉质 女士 围巾</div>													
+											</li>
+										</ul>
+									</div>							
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">腕表</a>
+							<div class="yc" style="display: none;">
+								<div class="menu1 clear" style="left: -576px;">
+									<div class="menu1_l l clear">
+										<dl>
+											<dt>今日上新</dt>
+											<dt>昨日上新</dt>
+											<dt>本周上新</dt>
+										</dl>
+										<dl>
+											<dt>男仕 Man</dt>
+											<dd>包袋 Bags</dd>
+											<dd>配饰 Accessories</dd>
+											<dd>鞋履 Shoes</dd>
+											<dd>服装 Clothes</dd>
+										</dl>
+									</div>
+									<div class="menu1_r r clear">
+										<ul class="l">
+											<h2>今日推荐新品</h2>
+											<li>
+												<a href="#"><img src="images/test/m9.jpg" /></a>
+													<div>Gucci 古驰</div>
+													<div>17春夏新款 全棉 女士 短袖T恤</div>										
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m10.jpg" /></a>					
+												<div>Gucci 古驰</div>
+												<div>17春夏新款 粘胶纤维 女士 连衣裙</div>
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m11.jpg" /></a>
+													<div>Gucci 古驰</div>
+													<div>17春夏新款 棉质 女士 围巾</div>				
+											</li>
+										</ul>
+									</div>							
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">品牌</a>
+							<div class="yc" style="display: none;">
+								<div class="menu1 clear" style="left: -672px;">
+									<div class="menu1_l l clear">
+										<dl>
+											<dt>今日上新</dt>
+											<dt>昨日上新</dt>
+											<dt>本周上新</dt>
+										</dl>
+										<dl>
+											<dt>男仕 Man</dt>
+											<dd>包袋 Bags</dd>
+											<dd>配饰 Accessories</dd>
+											<dd>鞋履 Shoes</dd>
+											<dd>服装 Clothes</dd>
+										</dl>
+									</div>
+									<div class="menu1_r r clear">
+										<ul class="l">
+											<h2>今日推荐新品</h2>
+											<li>
+												<a href="#"><img src="images/test/m11.jpg" /></a>
+													<div>Gucci 古驰</div>
+													<div>17春夏新款 全棉 女士 短袖T恤</div>													
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m11.jpg" /></a>									
+												<div>Gucci 古驰</div>
+												<div>17春夏新款 粘胶纤维 女士 连衣裙</div>
+											</li>
+											<li>
+												<a href="#"><img src="images/test/m11.jpg" /></a>
+													<div>Gucci 古驰</div>
+													<div>17春夏新款 棉质 女士 围巾</div>													
+											</li>
+										</ul>
+									</div>							
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">特惠区</a>
+						</li>
+						<li>
+							<a href="#"><img style="height: 34px;display: block;" src="images/styleimg/M.jpg" /></a>
+						</li>
+					</ul>
+					<div class="navbd"></div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="main">
+			<div class="margin">
+				<!--产品详情-->
+				<div class="product clear">
+					<!--左边-->
+					<div class="pro_l l clear">
+						<!--缩略图-->
+						<div class="thumbnail l">
+							<div class="goods">
+								<i class="pro_t projt"></i>
+								<i class="pro_b projt"></i>
+								<ul class="lue">
+									<li class="activ">
+										<a href="javascript:;"><img src="images/test/s0.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/test/s1.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/test/s2.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/test/s3.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/test/s4.jpg" /></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--放大镜-->
+						<div class="left_box l">
+							<img class="pic_l" src="images/test/s0.jpg" />
+							<div class="fdj"></div>
+						</div>
+						<div class="right_box r">
+							<img class="pic_r" src="images/test/s0.jpg" />
+						</div>
+					</div>
+		
+					<!--右边-->
+					<div class="pro_r r">
+						<!--商品名称-->
+						<div class="brand">
+							<a href="#">Gucci 古驰 </a><br />
+							<span>17春夏新款 粘胶纤维 女士 连衣裙</span>
+						</div>
+						<!--价格-->
+						<div class="price">
+							<s>参考价：￥20940.00</s>
+							<p>美西价：￥15960.00</p>
+							<div class="aog">
+								<p>到货时间： 该商品由香港发货，到货时间预计7-10个工作日</p>
+								<p>退货说明： 若该商品无质量问题不支持退换货</p>
+							</div>
+						</div>
+						<!--尺码-->
+						<div class="size">
+							<p>请选择您的尺码</p>
+							<ul>
+								<li>XS</li>
+								<li>S</li>
+								<li>M</li>
+								<li class="n">L</li>
+								<li class="n">LX</li>
+							</ul>
+						</div>
+						<!--购买-->
+						<div class="buy clear">
+							<a href="javascript:;" class="gm_btn l"></a>
+							<a href="cart.html" class="jr_btn l"></a>
+						</div>
+						<div class="fxbj"></div>
+					</div>
+				</div>
+				
+				<!--tab切换-->
+				<div class="tab">			
+					<ul>
+						<li class="active">商品详情</li>
+						<li>商品尺寸</li>
+						<li>配送和售后</li>
+					</ul>
+					<div class="qh" style="display: block;">
+						<img src="images/styleimg/xqbj.png"/>
+					</div>
+					<div class="qh">
+						<img src="images/styleimg/ccbj.png"/>
+					</div>
+					<div class="qh">
+						<img src="images/styleimg/shbj.png"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--回到顶部-->
+		<div id="gotop">
+			<div class="scroll_ej">
+				<a href="#" class="ej return" title="即刻咨询"></a>
+			</div>
+			<div class="scroll_qq">
+				<a href="#" class="qq return" title="QQ咨询"></a>
+			</div>
+			<div class="scroll_top">
+				<a href="#" class="top return" title="回到顶部"></a>
+			</div>
+			
+			
+		</div>
+		
+		
+		<!--底部-->
+		<div id="footer">
+			<div class="margin">
+				<!--帮助-->
+				<div class="help clear">
+					<dl>
+						<dt>购物指南</dt>
+						<dd>购物流程</dd>
+						<dd>配送方式</dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd>如何付款</dd>
+						<dd>发票制度</dd>
+					</dl>
+					<dl>
+						<dt>商品说明</dt>
+						<dd>商品尺码</dd>
+						<dd>商品包装</dd>
+					</dl>
+					<dl>
+						<dt>客服中心</dt>
+						<dd>七天退换</dd>
+						<dd>常见问题</dd>
+					</dl>
+					
+					<ul class="dgrx l">
+						<li><span>订购热线<br /><span class="dg">4000-250-630</span></span></li>
+					</ul>
+					<ul class="zx l">
+						<li>
+							<span>在线客服</span>
+							<a href="javascript:;" title=""><i class="qq eamil"></i></a>
+							<a href="javascript:;"><i class="ej eamil"></i></a>
+						</li>
+					</ul>
+					<ul class="sm l">
+						<li class="clear">
+							<div class="mxapp l">
+								<p>美西时尚APP</p>
+								<img src="images/styleimg/ewm.png"/>
+							</div>
+							<div class="mxwx l">
+								<p>关注我们</p>
+								<img src="images/styleimg/wx.png"/>
+							</div>
+							
+						</li>
+					</ul>
+				</div>
+				<!--底部导航-->
+				<div class="btm_nav">
+					<ul class="clear">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="#">关于美西</a></li>
+						<li><a href="#">媒体报告</a></li>
+						<li><a href="#">正品保证</a></li>
+						<li><a href="#">业务合作</a></li>
+						<li><a href="#">隐私声明</a></li>
+						<li><a href="#">加入美西</a></li>
+						<li><a href="#">网站地图</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				</div>
+				<!--链接-->
+				<div class="link">
+					<ul class="clear">
+						<li><a href="#"></a><i class="link1 kk"></i></li>
+						<li><a href="#"></a><i class="link2 kk"></i></li>
+						<li><a href="#"></a><i class="link3 kk"></i></li>
+						<li><a href="#"></a><i class="link4 kk"></i></li>
+						<li><a href="#"></a><i class="link5 kk"></i></li>
+						<li class="link6"><a href="#">MEICI · CLUB</a></li>
+					</ul>
+				</div>
+				<!--版本信息-->
+				<div class="copyright">
+					<p>Copyright &copy; 2008-2016 美西时尚-高端时尚生活电商</p>
+					<p>沪ICP备09001221号</p>
+				</div>
+				<!--安全-->
+				<div class="safety">
+					<a class="aq" href="#"><img src="images/styleimg/aq.png"/></a>
+					<a class="gs" href="#"><img src="images/styleimg/ssgs.gif"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="zz"></div>
+		<div class="dialog">
+				<div class="dialog_top"><i class="x close"></i></div>
+				
+				<div class="speak">
+					<p>请选择发起聊天的方式:</p>
+					<div class="ico clear">
+						<a href="#" class="l"><i class="qqlt close"></i><span>QQ帐号聊天</span></a>
+						<a href="" class="r"><i class="moni close"></i><span>QQ匿名聊天</span></a>
+					</div>
+					
+				</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/details.js"></script>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import "_public.scss";
+@import "_header.scss";
+@import "footer.scss";
+
+//登录主要内容
+#content{
+}
+#content .login_bg{
+    background: url(../images/styleimg/login2.jpg) no-repeat;
+    min-height: 517px;
+    position: relative;
+    .welcome{
+        position: absolute;
+        top: 27px;
+        left: 66px;
+    }
+}
+    #content .login_bg .login_box{
+        padding: 170px 0 0 104px;
+       label{
+          display: block;
+            input{
+                width: 200px;
+                height: 20px;
+                font-family: "微软雅黑";
+                padding-left: 2px;
+            }
+            .check{
+                width: 12px;
+                margin: 4px 5px 0 72px;
+            }
+            .wj{
+                margin-left: 25px;
+                color: #7a7a7a;
+                font-family: "微软雅黑";
+            }
+            i{
+               display: inline-block;
+               width: 72px;
+               font-size: 100%;
+               font-family: "微软雅黑";
+               color: #666;
+            }
+        }
+        .dl{
+           width: 450px;
+           height: auto;
+           margin: 20px 0;
+           .btn{
+               width: 204px;
+               height: 30px;
+               border: none;
+               background: #8E0C3A;
+               color: #FFFFFF;
+               margin-left: 72px;
+           }
+           p{
+               color: #8E0C3A;
+               margin: 5px 0 0 230px;
+               cursor: pointer;
+               line-height: 26px;
+               font-family: "微软雅黑";
+           }
+           span{
+               padding-top:10px ;
+               color: #8E0C3A;
+               font-family: "微软雅黑";
+               margin-left: 72px;
+           }
+        } 
+    }
+

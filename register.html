@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header">
+			<div class="headtop">
+				<div class="margin clear">
+					<div class="top_left l clear">
+						<div class="lr l">
+							<a class="register" href="#">注册</a>
+							<a class="login" href="#">登录</a>
+						</div>
+						<div class="top_left_order l">
+							<a href="#">订单查询</a>
+						</div>
+					</div>
+					<div class="top_right r clear">
+						<div class="tell l">客服热线：4000-250-630</div>
+						<div class="concern l">
+							<i class="star head"></i><span>关注我们</span>
+							
+							<!--隐藏盒子-->
+							<div class="gz" style="display: none;">
+								<ul class="clear">
+									<li class="l"><img src="images/styleimg/wb.gif"/><br />新浪微博</li>
+									<li class="l"><img src="images/styleimg/wx.gif"/><br />美西微信</li>
+								</ul>
+							</div>
+						</div>
+						<div class="shop l">
+							<i class="pack head"></i>
+							<s>购物袋(<span id="count">0</span>)</s>
+							<a href="#">▼</a>
+						</div>
+						<!--购物车盒子-->
+						<div class="shopbox" style="display: none;">
+							<div class="shopbox_n">您的购物袋是空的</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="margin">
+				<div class="headcenter clear">
+					<!--二维码-->
+					<div class="twocode l">
+						<img class="ewm" src="images/styleimg/ewm.png" />
+						<img class="app" src="images/styleimg/app.png" />
+					</div>
+					<!--LOGO-->
+					<div class="logo l">
+						<a href="#" title="美西时尚-高端时尚奢侈品购物平台">
+							<img src="images/styleimg/logo.png" />
+						</a>
+						
+					</div>
+					<!--搜索-->
+					<div class="search r">
+						<input type="search" class="sec" placeholder=" 请输入您的关键词" />
+						<button class="hbtn"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--注册-->
+		<div id="content">
+			<div class="margin">
+				<div class="login_bg">
+					<div class="welcome">
+						<img src="images/styleimg/register.png"/>
+					</div>
+					<div class="phone">
+						<p>手机验证完成即送<em>888</em>元优惠券</p>
+					</div>
+					<div class="login_box">
+						<form action="php/reg.php" method="post">
+							<label for="username"><i>手机/邮箱 ：</i><input class="z_user" type="text" name="username" placeholder="手机注册更享好礼"/></label><br />			
+							<label for="password"><i>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 码 ：</i><input name="password" class="z_password" type="password"/></label><br />
+							<label for="repass"><i>确认 密码 ：</i><input name="repass" class="z_againpassword" type="password"/></label>
+							<div class="z_check">
+								<input type="checkbox" checked="checked" /><i>订阅美西时尚资讯</i>
+							</div>
+							<div class="zc">
+								<input type="submit" name="submit" class="zc_btn" value="注册"></input>
+								<p><em>已注册? </em>登录</p>
+								<span class="error"></span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		<div id="footer">
+			<div class="margin">
+				<!--底部导航-->
+				<div class="btm_nav">
+					<ul class="clear">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">关于美西</a></li>
+						<li><a href="#">媒体报告</a></li>
+						<li><a href="#">正品保证</a></li>
+						<li><a href="#">业务合作</a></li>
+						<li><a href="#">隐私声明</a></li>
+						<li><a href="#">加入美西</a></li>
+						<li><a href="#">网站地图</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				</div>
+				<!--链接-->
+				<div class="link">
+					<ul class="clear">
+						<li><a href="#"></a><i class="link1 kk"></i></li>
+						<li><a href="#"></a><i class="link2 kk"></i></li>
+						<li><a href="#"></a><i class="link3 kk"></i></li>
+						<li><a href="#"></a><i class="link4 kk"></i></li>
+						<li><a href="#"></a><i class="link5 kk"></i></li>
+						<li class="link6"><a href="#">MEICI · CLUB</a></li>
+					</ul>
+				</div>
+				<!--版本信息-->
+				<div class="copyright">
+					<p>Copyright &copy; 2008-2016 美西时尚-高端时尚生活电商</p>
+					<p>沪ICP备09001221号</p>
+				</div>
+				<!--安全-->
+				<div class="safety">
+					<a class="aq" href="#"><img src="images/styleimg/aq.png"/></a>
+					<a class="gs" href="#"><img src="images/styleimg/ssgs.gif"/></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/register.js"></script>

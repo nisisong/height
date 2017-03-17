@@ -1,0 +1,360 @@
+@charset "utf-8";
+@import "_public.scss","_header.scss","_footer.scss"; 
+
+//楼梯
+#loutinav{
+    width: 100px;
+    position: fixed;
+    top:100px ;
+    left: 20px;
+    border: 1px solid #ddd;
+}
+#loutinav ul li {
+        width: 100px;
+        height: 22px;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        padding: 10px 0;
+        background: #fff;
+        color: #333;
+    }
+    
+    #loutinav ul li span {
+        width: 100px;
+        height: 22px;
+        padding: 15px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+     
+    #loutinav ul li.last {
+        background: #8E0C3A;
+        color: #fff;
+    }
+
+    #loutinav ul li.active span {
+        background: #8E0C3A;
+        color: #fff;
+        display: block;
+    }
+
+    #loutinav ul li:hover span {
+        background: #8E0C3A;
+        color: #fff;
+        display: block;
+    }
+
+//主页主要内容 
+#main{
+    padding-top:10px ;
+    //特别推荐
+    .rec_t{
+        margin-top:15px;
+        position: relative;
+        height: 54px;
+        .line{
+            width: 100%;
+            position: absolute;
+            top: 24px;
+            left: 0;
+            border-bottom: 1px solid #999;
+            z-index: 1;
+        }
+        p{
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 260px;
+            background: #fff;
+            font-size: 16px;
+            font-family: "微软雅黑";
+            text-align: center;
+            color: #333;
+            z-index:2;            
+        }
+    }
+    .rec_b{
+        .lastimg {
+            margin-top: 6px;
+        }
+        .rec_b_l{
+            width: 316px;
+            height: 386px;    
+        }
+        .rec_b_c{
+            width: 316px;
+            height: 386px;
+            margin: 0 6px;
+        }
+        .rec_b_r{
+            width: 316px;
+            height: 386px;
+        }
+    }
+    //正被选购
+    .cho_b{
+        position: relative;
+        overflow: hidden;
+        //左边按钮
+        .cho_l .jt_l{
+            width: 17px;
+            height: 20px;
+            position: absolute;
+            top: 100px;
+            background:url(../images/styleimg/cho_l.png) no-repeat;
+            background-position: -3px 1px;
+            cursor: pointer;
+            z-index: 11;
+        }
+        .cho_l{
+            width: 17px;
+            height:260px;
+            z-index: 10;
+            position: absolute;
+            background: #fff;
+        }
+        //右边按钮
+        .jt_r{
+            width: 17px;
+            height: 20px;
+            position: absolute;
+            top: 100px;
+            background:url(../images/styleimg/cho_r.png) no-repeat;
+            background-position: 3px 1px;
+            cursor: pointer;
+            z-index: 11;
+        }
+        .cho_r{
+            width: 17px;
+            height: 260px;
+            right: 0;
+            z-index: 10;
+            position: absolute;
+            background: #fff;
+            vertical-align: middle;
+        }
+        //正被选购（轮播）
+        .cho_ul{
+            width: 2880px;
+            height: 260px;
+            overflow: hidden;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        .cho_ul li{
+                float: left;
+                width: 160px;
+                height: 260px;
+                margin: 5px 16px 0 16px;
+                text-align: center;
+                p{
+                    height: 44px;
+                    color: #555;
+                }
+                .state{
+                    height: 18px;
+                    color: #999;
+                }
+                img{
+                    
+                }
+            }       
+    }
+    //时尚专题
+    .fas_b {
+        padding-bottom: 6px;
+        overflow: hidden;
+        .fas_two{
+            margin: 0 6px;
+            position: relative;
+            .fas_p{
+                display: inline-block;
+                position: absolute;
+                left:0;
+                bottom: -90px;
+                width: 316px;
+                height: 36px;
+                color: #000;
+                background:rgba(255,255,255,0.8);
+                cursor: pointer;
+                span{
+                    padding-left:15px ;
+                    font-size: 18px;
+                    line-height: 36px;
+                }
+            }
+        }
+        .fas_one{
+            position: relative;
+            .fas_p{
+                display: inline-block;
+                position: absolute;
+                left:0;
+                bottom: -90px;
+                width: 316px;
+                height: 36px;
+                color: #000;
+                background:rgba(255,255,255,0.8);
+                cursor: pointer;
+                span{
+                    padding-left:15px ;
+                    font-size: 18px;
+                    line-height: 36px;
+                }
+            }
+        }
+        .fas_three{
+            position: relative;
+            .fas_p{
+                display: inline-block;
+                position: absolute;
+                left:0;
+                bottom: -90px;
+                width: 316px;
+                height: 36px;
+                color: #000;
+                background:rgba(255,255,255,0.8);
+                cursor: pointer;
+                span{
+                    padding-left:15px ;
+                    font-size: 18px;
+                    line-height: 36px;
+                }
+            }
+        }
+        .fas_img {
+            width: 316px;
+        }
+    }
+    //体验更多
+    .exm_b_two{
+        margin: 0 6px;
+    }
+    .exm_b_two .exm_mail{
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    #email{
+        width: 128px;
+        height: 27px;
+        padding:0 3px 0 36px;
+        font-size: 12px;
+        line-height: 25px;
+        border: 1px solid #a3a3a3;
+        background: url(../images/styleimg/emil.gif) no-repeat -40px -29px;
+    }
+    #email_btn{
+        width: 70px;
+        height: 29px;
+        background: #333;
+        color: #fff;
+        border: none;
+        margin-left: 5px;
+        font-size:12px ;
+        line-height: 26px;
+        cursor: pointer;
+    }
+}
+
+.loading{
+    width: 316px;
+    height: 190px;
+    margin: auto;
+}
+
+
+//轮播
+#banner{
+    width: 960px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    .jt{
+        background: url(../images/styleimg/jt.png) no-repeat;
+    }
+    .arrow_r{
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        margin-top:-33px ;
+        width: 27px;
+        height: 66px;
+        background-position: 0 -67px;
+        display: none;
+    }
+    .arrow_l{
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        margin-top:-33px ;
+        width: 27px;
+        height: 66px;
+        background-position: 0 0;
+        display: none;
+    }
+    .piclist{
+        width: (960px*6);
+        position: absolute;
+        li{
+            float: left;
+        }
+        img{
+            width: 960px;
+            height: 500px;
+        }
+    }
+}
+#banner:hover{
+    .arrow_l{
+        display:block ;
+    }
+    .arrow_r{
+        display: block;
+    }
+}
+
+
+//顶部悬浮
+#fix_box {
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    .fix_pic {
+        width: 200px;
+        height: 30px;
+        img {
+            margin: 3px 0;
+            border: none;
+        }
+    }
+    .fix_sec {
+        margin-left: 100px;
+        border: 2px solid #8e0c3a;
+        width: 550px;
+        height: 28px;
+        padding: 0 6px;
+        border-right: none;
+    }
+    .fix_btn {
+        width: 30px;
+        height: 28px;
+        border: 2px solid #8e0c3a;
+        border-left: none;
+        background: url("../images/styleimg/sea.gif") no-repeat center;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/* CSS Document */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px  "宋体";
+  word-wrap: break-word;
+}
+
+a, u, s, del {
+  color: #666;
+  text-decoration: none;
+}
+
+fieldset, a img, .bor0 {
+  border: 0;
+}
+
+i, em, b {
+  font-style: normal;
+  font-weight: 100;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.ind2 {
+  text-indent: 2em;
+}
+
+input, textarea {
+  outline: none;
+}
+
+.over {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.vcenter {
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+  display: inline-block;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.menu {
+  width: 4.68rem;
+  height: 6.87rem;
+  float: left;
+  cursor: pointer;
+}
+
+.menu i {
+  position: relative;
+  float: left;
+  width: 4.68rem;
+  height: .625rem;
+  background: #fff;
+  margin-top: 1.4rem;
+}
+
+.menu i:before {
+  content: "";
+  width: 4.68rem;
+  height: .625rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: -1.4rem;
+}
+
+.menu i:after {
+  content: "";
+  width: 4.68rem;
+  height: .625rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 1.4rem;
+}
+
+.margin {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#footer {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#footer .help {
+  border-top: 1px solid #ccc;
+  padding: 30px 0 10px 0;
+}
+#footer .help dl {
+  float: left;
+  width: 95px;
+}
+#footer .help dl dt {
+  color: #666;
+  font-weight: bold;
+  padding: 10px 0 8px 0;
+}
+#footer .help dl dd {
+  color: #7a7a7a;
+  line-height: 18px;
+}
+
+#footer .help .dgrx {
+  width: 240px;
+  height: 74px;
+  padding-top: 13px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.dgrx li {
+  text-align: center;
+}
+.dgrx li span {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #666;
+}
+.dgrx li span .dg {
+  font-size: 20px;
+  line-height: 29px;
+}
+
+#footer .help .zx {
+  width: 145px;
+  height: 74px;
+  padding-top: 13px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+#footer .help .zx li span {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #666;
+}
+
+#footer .help .zx li span {
+  display: block;
+}
+
+#footer .help .zx li a .eamil {
+  background: url("../images/styleimg/emil.gif") no-repeat;
+}
+#footer .help .zx li a .qq {
+  width: 20px;
+  height: 23px;
+  background-position: 0 0;
+  display: inline-block;
+}
+#footer .help .zx li a .ej {
+  width: 20px;
+  height: 23px;
+  background-position: -20px 0;
+  display: inline-block;
+}
+
+#footer .help .sm {
+  width: 190px;
+  height: 86px;
+}
+#footer .help .sm .mxapp {
+  margin-top: -8px;
+  text-align: center;
+}
+#footer .help .sm .mxapp p {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #666;
+}
+#footer .help .sm .mxapp img {
+  width: 72px;
+  height: 72px;
+  margin: 0 16px 0 20px;
+}
+#footer .help .sm .mxwx {
+  text-align: center;
+  margin-top: -8px;
+  width: 72px;
+}
+#footer .help .sm .mxwx p {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #666;
+}
+#footer .help .sm .mxwx img {
+  width: 75px;
+  height: 75px;
+}
+
+#footer .btm_nav {
+  margin: 20px 0;
+  background: #eee;
+}
+#footer .btm_nav ul {
+  width: 810px;
+  margin: 3px auto;
+}
+#footer .btm_nav ul li a {
+  text-align: center;
+  float: left;
+  width: 90px;
+  height: 18px;
+  font-size: 12px;
+  color: #7a7a7a;
+  padding-top: 2px;
+}
+#footer .btm_nav a:hover {
+  background: #999;
+  color: #fff;
+}
+
+#footer .link {
+  width: 480px;
+  margin: 3px auto;
+}
+
+#footer .link ul .link6 a {
+  display: inline-block;
+  width: 85px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  background: #5a5a5a;
+  color: #fff;
+}
+
+#footer .link ul li {
+  margin: 2px 2px 0 2px;
+  float: left;
+}
+#footer .link ul li .kk {
+  background: url("../images/styleimg/kk.jpg");
+}
+#footer .link ul li .link1 {
+  display: inline-block;
+  width: 22px;
+  height: 23px;
+}
+#footer .link ul li .link2 {
+  display: inline-block;
+  background-position: 0 -45px;
+  width: 100px;
+  height: 22px;
+}
+#footer .link ul li .link3 {
+  display: inline-block;
+  background-position: 0 -133px;
+  width: 66px;
+  height: 22px;
+  margin-left: 35px;
+}
+#footer .link ul li .link4 {
+  display: inline-block;
+  background-position: -182px -70px;
+  width: 73px;
+  height: 22px;
+}
+#footer .link ul li .link5 {
+  display: inline-block;
+  background-position: -66px 0;
+  width: 73px;
+  height: 23px;
+}
+
+#footer .copyright {
+  padding: 10px 20px;
+  text-align: center;
+  color: #777;
+  line-height: 18px;
+  font-family: "微软雅黑";
+}
+
+#footer .safety {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 3px;
+  height: 35px;
+  margin-bottom: 18px;
+  position: relative;
+}
+#footer .safety .aq {
+  width: 83px;
+  height: 30px;
+  position: absolute;
+  top: 2px;
+  left: 367px;
+}
+#footer .safety .gs {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=_footer.css.map */

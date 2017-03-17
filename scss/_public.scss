@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td{margin:0;padding:0;}
+body{font:12px  "宋体"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none} 
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none}
+img{vertical-align:middle}
+table{border-collapse:collapse;}
+.ind2{text-indent:2em} 
+input,textarea{outline:none;}
+
+
+
+.over{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.vcenter{vertical-align:middle;width:0;height:100%;display:inline-block;}
+.clear{zoom:1;}
+.clear:after{content:"";clear:both;display:block;height:0;overflow:hidden; visibility:hidden;
+}
+.l{float:left;}
+.r{float:right;}
+
+
+.menu{width:4.68rem;height:6.87rem;float:left;cursor:pointer;}
+.menu i{position:relative;float:left;width:4.68rem;height:.625rem;background:#fff;margin-top:1.4rem;}
+.menu i:before{content:"";width:4.68rem;height:.625rem;background:#fff;position:absolute;left:0;top:-1.4rem;}
+.menu i:after{content:"";width:4.68rem;height:.625rem;background:#fff;position:absolute;left:0;top:1.4rem;}
+
+.margin{margin:0 auto;width:960px;}
+
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+@charset "utf-8";
+@import "_public.scss";
+
+#footer{
+    margin-top: 30px;
+    cursor: pointer;
+}
+#footer .help{
+    border-top: 1px solid #ccc;
+    padding: 30px 0 10px 0;
+    dl{
+        float: left;
+        width: 95px;
+        dt{
+            color: #666;
+            font-weight: bold;
+            padding: 10px 0 8px 0;
+        }
+        dd{
+            color: #7a7a7a;
+            line-height: 18px;
+        }
+    }
+}
+#footer .help .dgrx{
+        width: 240px;
+        height: 74px;
+        padding-top:13px;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    .dgrx li{
+        text-align: center;
+        span{
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 24px;
+            color: #666;
+        .dg{
+            font-size: 20px;
+            line-height: 29px;
+        }    
+    }
+}
+
+#footer .help .zx{
+    width: 145px;
+    height: 74px;
+    padding-top:13px ;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    li span{
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 24px;
+            color: #666;
+    }
+}
+
+#footer .help .zx li span{
+    display: block;
+}
+#footer .help .zx li a{   
+    .eamil{
+        background: url("../images/styleimg/emil.gif") no-repeat;
+    }  
+    .qq{
+        width: 20px;
+        height: 23px;
+        background-position: 0 0;
+        display: inline-block;
+    }
+    .ej{
+       width: 20px;
+        height: 23px;
+        background-position: -20px 0;
+        display: inline-block; 
+    }
+}
+
+#footer .help .sm{
+    width: 190px;
+    height: 86px;
+    .mxapp{
+        margin-top: -8px;
+        text-align: center;
+        p{
+            font-size:12px ;
+            line-height: 24px;
+            font-weight: bold;
+            color: #666;
+        }
+        img{
+            width: 72px;
+            height: 72px;
+            margin: 0 16px 0 20px;
+        }
+    }
+    .mxwx{
+        text-align: center;
+        margin-top: -8px;
+        width: 72px;
+        p{
+            font-size:12px ;
+            line-height: 24px;
+            font-weight: bold;
+            color: #666;
+        }
+        img{
+            width: 75px;
+            height: 75px;
+            
+        }
+    }
+}
+
+
+#footer .btm_nav{
+    margin: 20px 0;
+    background: #eee;
+    ul{
+        width: 810px;
+       margin: 3px auto;
+    }
+    ul li a{
+        text-align: center;
+        float: left;
+        width:90px ;
+        height: 18px;
+        font-size: 12px;
+        color: #7a7a7a;
+        padding-top:2px ;
+    }
+    a:hover{
+        background: #999;
+        color: #fff;
+    }
+}
+
+#footer .link{
+    width: 480px;
+    margin: 3px auto;
+} 
+
+#footer .link ul .link6 a{
+            display: inline-block;
+            width: 85px;
+            height: 22px;
+            text-align: center;
+            line-height: 22px;
+            background: #5a5a5a;
+            color: #fff;
+    }
+#footer .link ul li{
+    margin: 2px 2px 0 2px;
+    float: left;
+    .kk{
+        background: url("../images/styleimg/kk.jpg");
+    }
+    .link1{
+        display: inline-block;
+        width: 22px;
+        height: 23px;       
+    }
+    .link2{
+        display: inline-block;
+        background-position: 0 -45px;
+        width: 100px;
+        height: 22px;       
+    }
+    .link3{
+        display: inline-block;
+        background-position: 0 -133px;
+        width: 66px;
+        height: 22px; 
+        margin-left: 35px;      
+    }
+    .link4{
+        display: inline-block;
+        background-position: -182px -70px;
+        width: 73px;
+        height: 22px;       
+    }
+    .link5{
+        display: inline-block;
+        background-position: -66px 0;
+        width: 73px;
+        height: 23px;       
+    }
+    
+}
+
+
+#footer .copyright{
+    padding: 10px 20px;
+    text-align: center;
+    color: #777;
+    line-height: 18px;
+    font-family: "微软雅黑";
+}
+
+#footer .safety{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 3px;
+    height: 35px;
+    margin-bottom: 18px;
+    position: relative;
+    .aq{
+        width:83px ;
+        height: 30px;
+        position: absolute;
+        top: 2px;
+        left: 367px;
+    }
+    .gs{        
+        overflow: hidden;
+    }
+}
